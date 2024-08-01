@@ -2,6 +2,7 @@
   "name": "gallery_server",
   "version": "1.0.0",
   "description": "",
+  "publishConfig":{"registry":"https://soleng.jfrog.io/artifactory/api/npm/alpha-npm-virtual/"},
   "main": "app.js",
   "scripts": {
     "test": ""
