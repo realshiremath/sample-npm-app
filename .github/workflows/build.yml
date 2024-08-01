@@ -37,12 +37,12 @@ jobs:
        run: |
          # Configure the project
          #jf npmc --repo-resolve alpha-npm-virtual --repo-deploy alpha-npm-virtual
-         npm-config
          npm install
          # Build the project using JFrog CLI
          #jf npm install --build-name ${{env.BUILD_NAME}} --build-number ${{github.run_number}}
          # Publish the project
-         jf npm publish --build-name ${{env.BUILD_NAME}} --build-number ${{github.run_number}}
+         #jf npm publish --build-name ${{env.BUILD_NAME}} --build-number ${{github.run_number}}
+         npm publish
      - name: Failure check
        run: |
          echo "JFROG_BUILD_STATUS=FAIL" >> $GITHUB_ENV
