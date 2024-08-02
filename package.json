@@ -2,7 +2,9 @@
   "name": "gallery_server",
   "version": "1.0.0",
   "description": "",
-  "publishConfig":{"registry":"https://soleng.jfrog.io/artifactory/api/npm/alpha-npm-virtual/"},
+  "publishConfig": {
+    "registry": "https://soleng.jfrog.io/artifactory/api/npm/alpha-npm-virtual/"
+  },
   "main": "app.js",
   "scripts": {
     "test": ""
@@ -16,12 +18,12 @@
     "express": "^4.18.2",
     "express-fileupload": "^1.1.8",
     "formidable": "^3.2.3",
-    "jquery": "3.4",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.0",
+    "minimist": "1.2.0",
     "node-forge": "^0.7.2",
     "parse-url": "^6.0.5",
     "undici": "5.8.0",
-    "vm2": "^3.9.3",
-    "minimist": "1.2.0"
+    "vm2": "^3.9.3"
   }
 }
